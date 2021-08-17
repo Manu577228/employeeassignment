@@ -17,7 +17,7 @@ function EmployeeDetails() {
 
             <h5>DOB</h5>
 
-            <input type="text" />
+            <input type="date" />
 
             <h5>Designation</h5>
 
@@ -29,7 +29,7 @@ function EmployeeDetails() {
 
             <h5>Experience</h5>
 
-            <input type="text" />
+            <input type='number' min='0' />
         </div>
     )
 }
